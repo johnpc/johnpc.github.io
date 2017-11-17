@@ -13,7 +13,7 @@
     <p id="displayMessage"></p>
 <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script> 
 <script>
-$.get( "http://next.getloop.me/message", function( data ) {
+$.get( "http://next.getloop.me/message?skip_read=1", function( data ) {
     $('body').append('<p>Current message displayed is: ' + data.message + '</p>');
 });
 </script>
