@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/johncorser
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://johncorser.com
+  * I am johncorser (https://keybase.io/johncorser) on keybase.
+  * I have a public key ASDkK3yNx5GH7NzGMaA2cyuB_mGq-M0J-6pIlbm92Ep-Vgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e42b7c8dc79187ecdcc631a036732b81fe61aaf8cd09fbaa4895b9bdd84a7e560a",
+      "host": "keybase.io",
+      "kid": "0120e42b7c8dc79187ecdcc631a036732b81fe61aaf8cd09fbaa4895b9bdd84a7e560a",
+      "uid": "3fa04bfae16da353df1fa07dacf8cf19",
+      "username": "johncorser"
+    },
+    "merkle_root": {
+      "ctime": 1530112148,
+      "hash": "71b88cf87b8fc256a85b65baf9667b512432812c14e37e22397d4ba70aeed5d02677a25eb3c92e907e7fcc9672a8cbb94c3355f437c97099e0db722bb75b335a",
+      "hash_meta": "ef260098ebbc8db37b35fa0dc33afd9a3aeaa3d53a01bbc0b20f97aff0fe8322",
+      "seqno": 3154981
+    },
+    "service": {
+      "entropy": "ylZkJLK1OqFKg7a5L0KJNloX",
+      "hostname": "johncorser.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1530112157,
+  "expire_in": 504576000,
+  "prev": "85f6633d76a2415a5b47b3fa8118e979796dd46934181d2abd186ea16c7bb49d",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5Ct8jceRh+zcxjGgNnMrgf5hqvjNCfuqSJW5vdhKflYKp3BheWxvYWTESpcCCcQghfZjPXaiQVpbR7P6gRjpeXlt1Gk0GB0qvRhuoWx7tJ3EIBCKp6z/2f2w/1AXzeDUwOIFPtpfBuP0jShrLf8ovWkoAgHCo3NpZ8RAYuwA6z9rcHwtoYf75zXWt5oTm71Rf4VcNDwSKiIqdyJ5bxhiUHFqO7/XI5ADvtYL0LW4EYRCIJsL6/EuCHI6BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILpSKs8cuiqYTukfoPFl74pLDvZKfweU0FtXhaYD2OXko3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/johncorser
+
+==================================================================

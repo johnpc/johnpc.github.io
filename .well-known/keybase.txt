@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/johncorser
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jpc.io
+  * I am johncorser (https://keybase.io/johncorser) on keybase.
+  * I have a public key ASDkK3yNx5GH7NzGMaA2cyuB_mGq-M0J-6pIlbm92Ep-Vgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e42b7c8dc79187ecdcc631a036732b81fe61aaf8cd09fbaa4895b9bdd84a7e560a",
+      "host": "keybase.io",
+      "kid": "0120e42b7c8dc79187ecdcc631a036732b81fe61aaf8cd09fbaa4895b9bdd84a7e560a",
+      "uid": "3fa04bfae16da353df1fa07dacf8cf19",
+      "username": "johncorser"
+    },
+    "merkle_root": {
+      "ctime": 1536205374,
+      "hash": "43af3f61d6b99e8870824efca7bb7c66b21527535afbb06a39985b93e5b6e14e7b9e775f5628b03cdf6e6e38c1011478e842354c3c61762ac924a5e529011ebf",
+      "hash_meta": "2ac2763b21a585054f41de7b497d783f63073322d3d7b780b5b5f1e07ce6d97b",
+      "seqno": 3570558
+    },
+    "service": {
+      "entropy": "FEtb5rplIMzYUEiuMunfpJ9k",
+      "hostname": "jpc.io",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.1"
+  },
+  "ctime": 1536205379,
+  "expire_in": 504576000,
+  "prev": "2be1877cd5699aab0777f8d75835a9231de07ee2e13391a1c7a9f8f84ceabded",
+  "seqno": 29,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5Ct8jceRh+zcxjGgNnMrgf5hqvjNCfuqSJW5vdhKflYKp3BheWxvYWTESpcCHcQgK+GHfNVpmqsHd/jXWDWpIx3gfuLhM5Ghx6n4+Ezqve3EIPUGWl2ESjAf3gkBxnnUysNRDQJeBLQXxVm1J2V1byMQAgHCo3NpZ8RAJO38xoAkQYOCNkOy8NhXNAHpTrAmLWqobROp9/QZfKLWGTUiqw6HXQo/6T4mvdQUmkvme8SbZnbVnPpHUKJlAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAiYQe3lLR553ctbnt+8UumG2cK2HeVOLdkditMnR7bso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/johncorser
+
+==================================================================
