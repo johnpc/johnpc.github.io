@@ -1,54 +1,54 @@
 .header {
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    text-shadow: black 0px 0px 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: black 0px 0px 10px;
 }
 
 .questionList {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .questionText {
-    color: lightblue;
+  color: lightblue;
 }
 
 .answerText {
-    color: orange;
+  color: orange;
 }
 
 .answerOption {
-    display: inline-block;
-    background-color: gray;
-    margin: 5px;
+  display: inline-block;
+  background-color: gray;
+  margin: 5px;
 }
 
 .selected {
-    background-color: red;
+  background-color: red;
 }
 
 #answerContainer {
-    text-align: center;
-
+  text-align: center;
 }
 
 #winningAnswerTitle {
-    color: brown;
+  color: brown;
 }
 
 #winningAnswerDescription {
-    color: pink;
+  color: pink;
 }
 
 .info {
-    text-align: right;
-    margin: 30px;
+  text-align: right;
+  margin: 30px;
 }
 
 img {
-    width: 15vw
+  width: 15vw;
 }
 
-figure, figcaption {
-    text-align: center;
+figure,
+figcaption {
+  text-align: center;
 }

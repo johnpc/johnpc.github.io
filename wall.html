@@ -1,38 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Marquee Wall</title>
-</head>
-<body style="text-align: center">
-    <p>Enter message to be displayed on <a href="https://www.instagram.com/p/BbpuIQanpkL/">John's wall</a></p>
-    <form onsubmit="return validate()" action="http://next.getloop.me/message" method="POST">
-        <textarea name="message" rows="4" cols="50"></textarea><br>
-        <input type="submit" value="submit">
+  </head>
+  <body style="text-align: center">
+    <p>
+      Enter message to be displayed on
+      <a href="https://www.instagram.com/p/BbpuIQanpkL/">John's wall</a>
+    </p>
+    <form
+      onsubmit="return validate()"
+      action="http://next.getloop.me/message"
+      method="POST"
+    >
+      <textarea name="message" rows="4" cols="50"></textarea><br />
+      <input type="submit" value="submit" />
     </form>
     <p id="displayMessage"></p>
-<script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script> 
-<script>
-
-function isASCII(str) {
-    return /^[\x00-\x7F]*$/.test(str);
-}
-function validate()
-{
-   if(!isASCII($('textarea').val()))
-    {
-        $('body').append('<p>Invalid input. Please try to keep the message short without too many special characters.</p>');
-        return false;
-   }
-   if($('textarea').val().length >=255)
-   {
-        $('body').append('<p>Invalid input. Please try to keep the message short without too many special characters.</p>');
-     return false
-   }
-}
-$.get( "http://next.getloop.me/message?skip_read=1", function( data ) {
-    $('body').append('<p>Current message displayed is: ' + data.message + '</p>');
-});
-</script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function isASCII(str) {
+        return /^[\x00-\x7F]*$/.test(str);
+      }
+      function validate() {
+        if (!isASCII($("textarea").val())) {
+          $("body").append(
+            "<p>Invalid input. Please try to keep the message short without too many special characters.</p>",
+          );
+          return false;
+        }
+        if ($("textarea").val().length >= 255) {
+          $("body").append(
+            "<p>Invalid input. Please try to keep the message short without too many special characters.</p>",
+          );
+          return false;
+        }
+      }
+      $.get("http://next.getloop.me/message?skip_read=1", function (data) {
+        $("body").append(
+          "<p>Current message displayed is: " + data.message + "</p>",
+        );
+      });
+    </script>
+  </body>
 </html>
